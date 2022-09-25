@@ -1,2 +1,1 @@
-# tdd-solve
-Solve quadratic equation
+# otus-architect
