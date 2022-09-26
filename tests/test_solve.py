@@ -1,5 +1,6 @@
-from  tdd_solve.solve import solve 
+from tdd_solve.solve import solve
 import pytest
+
 
 def test_solve_exists():
     from tdd_solve import solve
@@ -29,7 +30,7 @@ def test_a_equals_zero_rises_error():
 
 def test_equation_for_very_small_discriminant():
     a, b, c = 0.0001, 0.00002, 0.0001
-    assert solve(a, b, c) ==  [-1e-09]
+    assert solve(a, b, c) == [-1e-09]
 
 
 def test_params_nan_raises_error():
