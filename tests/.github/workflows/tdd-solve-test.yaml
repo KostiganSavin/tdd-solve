@@ -1,7 +1,0 @@
-name: Tdd Solve Test
-on: []
-jobs:
-  Run tests
-  runs-on: ubuntu-latest
-  steps: 
-    - 
